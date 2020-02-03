@@ -5,7 +5,7 @@
   <title>Scoped CSS Variables and JS</title>
 </head>
 <body>
-  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+  <h2>R.I.P <span class='hl'>Kobe </span> and <span class='hl'>Gigi </span></h2> 
 
   <div class="controls">
     <label for="spacing">Spacing:</label>
@@ -14,7 +14,7 @@
     <label for="blur">Blur:</label>
     <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
 
-    <label for="base">Base Color</label>
+    <label for="base">Base Color:</label>
     <input id="base" type="color" name="base" value="#FDB927">
   </div>
 
@@ -26,7 +26,7 @@
   <style>
     :root {
       --base:#FDB927;
-      --spacing: 1 2px; 
+      --spacing: 10px; 
       --blur: 10px;   
     }
 
@@ -41,7 +41,7 @@
     }
 
     .responsive {
-      width: 100%; 
+      max-width: 50%; 
       height: auto; 
     }
      
